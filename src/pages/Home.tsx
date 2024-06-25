@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
   return (
     <Container maxWidth="sm">
-      <h1 className="heading">Welcome To Noway Tour & Travels</h1>
+      <h1 className="heading">Welcome To Noway Tour & Travels(GZB)</h1>
       <h2 className="headingsub">Enter Your Details:</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <Controller
