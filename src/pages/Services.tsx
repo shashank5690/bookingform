@@ -29,7 +29,7 @@ const Services: React.FC = () => {
   return (
     <Container maxWidth="sm">
       <h1 className='heading'>Vehicle Details form :</h1>
-      <h2 className='headingsub'>Enter the details for vehicles:::</h2>
+      <h2 className='headingsub'>:::Enter the details for vehicles:::</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormControl variant='outlined' fullWidth margin='normal' className='custom-textfield'>
         <InputLabel>Vehicle Type</InputLabel>
